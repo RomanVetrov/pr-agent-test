@@ -15,3 +15,5 @@ def calculate_square(number):
 if __name__ == "__main__":
     print(f"Square of 5 is: {calculate_square(5)}")
     greet("Developer")
+
+#комментарий для повторого запуска
