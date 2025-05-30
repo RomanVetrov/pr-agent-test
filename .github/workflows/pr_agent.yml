@@ -23,3 +23,5 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           OPENAI_KEY: ${{ secrets.OPENAI_KEY }}
           CONFIG_MODEL: "gpt-3.5-turbo"
+          TOOLS_REVIEW_MODEL: "gpt-3.5-turbo"
+          TOOLS_DESCRIBE_MODEL: "gpt-3.5-turbo"
