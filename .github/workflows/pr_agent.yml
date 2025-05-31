@@ -18,7 +18,7 @@ jobs:
     steps:
       - name: PR Agent Action
         id: pragent
-        uses: RomanVetrov/pr-agent@ce40f3dd703e9ee7c52bdf18a26bff252d4b4253
+        uses: RomanVetrov/pr-agent@4285fcbdddc74009b41ecf4b2df97aa542534c3a
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           OPENAI_KEY: ${{ secrets.OPENAI_KEY }}
